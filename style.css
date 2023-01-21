@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: "Overpass";
+}
+
+body{
+    background-color: #141519;
+}
+
+.box_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.box_como_esta{
+    width: 496px;
+    height: 484.5px;
+    background-color: #212832;
+    border-radius: 20px;
+    padding: 0.5rem;
+}
+
+.info_box{
+    padding: 2.5rem;
+}
+
+.Star_icon svg{
+    background-color: #262F38;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.title{
+    color: white;
+    padding: 1.5rem 0rem;
+}
+
+.descricao{
+    color: #888E98;
+    line-height: 30px;
+    padding-bottom: 2rem;
+}
+
+.buttons_click{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+.buttons_click button{
+    background-color: #262F38;
+    color: #6D767F;
+    height: 60px;
+    width: 60px;
+    font-size: 18px;
+    border-radius: 99px;
+    cursor: pointer;
+}
+
+.envia_dados button{
+    width: 100%;
+    background-color: #FC7613;
+    color: white;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.envia_dados button:hover{
+    background-color: #FFFFFF;
+    color: #FC7613;
+}
+
+/* Estilização Box 2 */
+
+.box_agradecimento{
+    padding: 2.5rem;
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.agradecimento_image{
+    padding-bottom: 2rem;
+}
+
+.info_selecionado{
+    background-color: #262F38;
+    width: 270px;
+    margin: 0px auto;
+    color: #BF6422;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-bottom: 2rem;
+}
+
+.obrigado_box{
+    padding-bottom: 1.5rem;
+}
+
+.descricao_box{
+    color: #8B929B;
+    line-height: 35px;
+}
