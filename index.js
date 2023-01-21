@@ -31,7 +31,6 @@ $(document).ready(function () {
 
             if (largura_tela <= 515) {
                 $(".box_como_esta").css("height", "485px")
-                $(".info_selecionado").css("width", "100%")
             }
         }
         else {

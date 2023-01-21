@@ -127,4 +127,8 @@ body{
         height: 45px;
     }
 
+    .info_selecionado{
+        width: 100%;
+    }
+
   }
