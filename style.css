@@ -112,3 +112,19 @@ body{
     color: #8B929B;
     line-height: 35px;
 }
+
+/* Mobile */
+
+@media screen and (max-width: 515px) {
+ 
+    .box_como_esta{
+        width: 330px;
+        height: 613.5px;
+    }
+
+    .buttons_click button{
+        width: 45px;
+        height: 45px;
+    }
+
+  }

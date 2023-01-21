@@ -1,1 +1,1 @@
-Pratica de HTML/CSS e JS - Aplicação apenas para Desktop
+Pratica de HTML/CSS e JS - Desktop and Mobile
